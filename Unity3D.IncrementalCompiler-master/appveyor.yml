@@ -1,0 +1,5 @@
+version: 1.2.2.{build}
+os: Visual Studio 2015
+build_script:
+- cmd: nuget restore & build.cmd package
+test: off
